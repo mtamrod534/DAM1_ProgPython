@@ -1,0 +1,1 @@
+print(float(input("floatroduce el numero 1: "))+float(input("floatroduce el numero 2: "))+float(input("Introduce el numero 3: ")))
