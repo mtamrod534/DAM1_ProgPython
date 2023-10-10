@@ -1,15 +1,17 @@
 #PSEUDOCODIGO
 #
-#lee nombre, edad
-#Si nombre=="" hacer
-    #Escribe "Nombre desconocido"      
-#Sino hacer
-    #Mientras edad<0 o edad>125 hacer
-        #Escribe "Edad no válida"
-        #lee edad
+#Inicio
+    #lee nombre, edad
+    #Si nombre=="" hacer
+        #Escribe "Nombre desconocido"      
+    #Sino hacer
+        #Mientras edad<0 o edad>125 hacer
+            #Escribe "Edad no válida"
+            #lee edad
 
-#Hacer años=125-edad
-#Escribe "Te llamas {nombre} y tienes {edad} años, te quedan aún {años} años por cumplir"
+    #Hacer años=125-edad
+    #Escribe "Te llamas {nombre} y tienes {edad} años, te quedan aún {años} años por cumplir"
+#Fin
 
 nombre=input("Introduce un nombre: ")
 edad=int(input("Introduce una edad: "))
