@@ -1,5 +1,5 @@
 #PSEUDOCODIGO
-#
+
 #Inicio
     #lee num, incremento, total
 

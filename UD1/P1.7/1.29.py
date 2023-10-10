@@ -1,5 +1,5 @@
 #PSEUDOCODIGO
-#
+
 #Inicio
     #lee nombre, edad
     #Si nombre=="" hacer
