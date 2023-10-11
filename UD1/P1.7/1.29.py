@@ -18,6 +18,7 @@ edad=int(input("Introduce una edad: "))
 
 if nombre=="":
     print("Nombre desconocido")
+    nombre="desconocido"
 
 while edad<0 or edad>125:
     print("Edad no válida")
