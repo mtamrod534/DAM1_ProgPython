@@ -10,7 +10,9 @@
 
 # --------------------------------------------
 
-#Inicio
+# PSEUDOCÓDIGO
+
+# Inicio
 
 #	Escribe "Introduce un número: "
 #	Lee x
@@ -18,17 +20,38 @@
 #	Lee y
 	
 #	Si (x >= y) entonces
-#		numIni = x - 1
+#		numIni = x
 #		numFin = y
 #	Sino
-#		numIni = y - 1
+#		numIni = y
 #		numFin = x
 		
-#	Para i en (numIni...numFin) hacer
-#		Escribe i + 
+#	Mientras (numIni <= numFin) hacer
+#		Escribe numIni
 #		Si (numIni != numFin) entonces
 #			Escribe "-"
+#               numIni = numIni + 1
 
-#Fin
+# Fin
 
 # --------------------------------------------
+
+x=int(input("Introduce un número: "))
+y=int(input("Introduce otro número: "))
+
+if (x>=y):
+    numFin=x
+    numIni=y
+else:
+    numIni=x
+    numFin=y
+
+while (numIni<numFin):
+    print(numIni, end="-")
+    if (numIni!=numFin):
+        numIni=numIni+1
+print(numFin)
+    
+
+
+
