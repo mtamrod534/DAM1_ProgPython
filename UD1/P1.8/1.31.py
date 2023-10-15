@@ -7,13 +7,27 @@
 
 # --------------------------------------------
 
-# PSEUDOCÓDIGO
+# PSEUDOCÓDIGO SIN CORREGIR
 
 #Inicio
 
 #	Escribe "Introduce un número: "
 #	Lee num
 	
+#	Mientras (num < 1 or num > 10)
+#		Escribe "Inténtalo otra vez! (1-10): "
+#		Lee num
+#	Escribe "Correcto!"
+	
+#Fin
+
+# --------------------------------------------
+
+# PSEUDOCÓDIGO CORREGIDO
+
+#	Escribe "Introduce un número: "
+#	Lee num
+
 #	Mientras (num < 1 or num > 10)
 #		Escribe "Inténtalo otra vez! (1-10): "
 #		Lee num
