@@ -39,7 +39,25 @@
 # PSEUDOCÓDIGO CORREGIDO
 
 # Inicio
-	
+
+#	Escribe "Introduce un número: "
+#	Lee x
+#	Escribe "Introduce otro: "
+
+#	Si (x >= y) entonces
+#		numIni = y
+#		numFin = x
+#	Sino
+#		numIni = x
+#		numFin = y
+		
+#	Mientras (numIni < numFin) hacer
+#		Escribe numIni
+#		Si (numIni != numFin) entonces
+#			Escribe "-"
+#               numIni = numIni + 1
+#	Escribe (numFin)
+
 # Fin
 
 # --------------------------------------------
