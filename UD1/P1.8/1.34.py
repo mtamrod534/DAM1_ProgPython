@@ -26,6 +26,25 @@
 
 # --------------------------------------------
 
+# PSEUDOCÓDIGO CORREGIDO
+
+# Inicio
+
+#	num = 3
+#	cont = 1
+	
+#	Escribe "Dime cuantos números debe tener la serie: "
+#	Lee total
+
+#	Mientras (cont <= total) hacer
+#		Escribe num
+#		num = num + 3
+#		cont = cont + 1
+
+# Fin
+
+# --------------------------------------------
+
 num=3
 cont=1
 
